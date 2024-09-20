@@ -17,7 +17,7 @@ public class BaseConverter {
                 break;
             case KELVIN_TO_CELSIUS:
                 double ktc = temp - 273.15;
-                System.out.println("Температура: " + ktc + "F");
+                System.out.println("Температура: " + ktc + "C");
                 break;
             case FAHRENHEIT_TO_CELSIUS:
                 double ftc = (temp - 32) / 1.8;
